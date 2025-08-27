@@ -8,7 +8,7 @@ Este projeto mostra como utilizar o **sensor DHT11** com o **ESP32** para medir 
 
 O sensor DHT11 possui **3 pinos principais**:  
 
-- **VCC** → 3.3V (ou 5V, dependendo do módulo)  
+- **VCC** → 3.3V
 - **GND** → GND do ESP32  
 - **DATA (OUT/S)** → GPIO do ESP32 (no exemplo, utilizamos o **pino 21**)  
 
@@ -18,7 +18,7 @@ O sensor DHT11 possui **3 pinos principais**:
 
 | Sensor e ESP32 Conectados | Versão Digital |
 |---------------------------|----------------|
-| <img src="img/fotoDht.jpg" height="100"/> | <img src="img/dhtDigital.png" height="100"/> |
+| <img src="img/fotoDht.jpg" height="300"/> | <img src="img/dhtDigital.png" height="300"/> |
 
 
 ---
@@ -66,3 +66,13 @@ void loop() {
 
   delay(1000);  // delay mínimo de 2s para leitura confiável
 }
+```
+---
+
+## ✅ Conclusão
+
+Se tudo estiver conectado corretamente e o código corretamente carregado no ESP32, você deverá obter **leituras em tempo real de temperatura e umidade** no Serial Monitor.  
+
+Este projeto permite monitorar facilmente as condições ambientais usando o **DHT11** e o **ESP32**, servindo como base para projetos de **automação residencial**, **estação meteorológica** ou **monitoramento de ambiente**.  
+
+Sinta-se à vontade para expandir este projeto, integrando com displays, bancos de dados ou sistemas IoT para registrar e visualizar os dados de forma mais completa.
