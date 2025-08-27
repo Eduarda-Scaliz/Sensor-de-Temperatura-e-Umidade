@@ -17,8 +17,9 @@ O sensor DHT11 possui **3 pinos principais**:
 ## 📷 Fotos do Sistema
 
 | Sensor e ESP32 Conectados | Versão Digital |
-|---------------------------|------------------------|
-| ![Sensor ESP32](img/fotoDht.jpg) | ![Serial Monitor](img/dhtDigital.png) |
+|---------------------------|----------------|
+| <img src="img/fotoDht.jpg" heigth="100"/> | <img src="img/dhtDigital.png" heigth="100"/> |
+
 
 ---
 
